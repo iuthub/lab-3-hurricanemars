@@ -1,0 +1,41 @@
+body{
+    background-image: url("images/background.gif");
+}
+.clr{
+	clear: both;
+}
+.frame{
+	border: 12px white solid;
+	background-color: white;
+	margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.main{
+border: 5px #C2E9E9 solid;
+background-color: #C2E9E9;
+text-align: right;
+}
+
+.indent{
+border: 4px #C2E9E9 solid;
+background-color: #E8FBFB;
+padding: 5px;
+margin-top: 10px;
+overflow: hidden;
+}
+
+.indent .date{
+
+border-bottom: dashed 2px #C2E9E9 ;
+}
+
+.main > h2{
+font-size: 14px;
+}
+
+
+img{
+	float: right;
+}
